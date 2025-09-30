@@ -16,8 +16,8 @@ describe ('Login', () => {
 
             //Adicinona body
                 .send({
-                    'username': 'julio.lima',
-                    'senha': '123456'
+                    username: 'julio.lima',
+                    senha: '123456'
                 })
 
             //Faz as validações do status code e resposta do body da requisição com o chai
